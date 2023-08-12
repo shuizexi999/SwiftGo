@@ -23,6 +23,8 @@
 		34716DCD2A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34716DC82A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf */; };
 		34716DCF2A846B73006672C9 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34716DCE2A846B73006672C9 /* CustomFont.swift */; };
 		34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34716DD22A86296F006672C9 /* PlayLocalVideo.swift */; };
+		34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 34716DD52A863BD8006672C9 /* emoji zone.mp4 */; };
+		34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34716DD72A863D01006672C9 /* PlayLocalVideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		34716DC82A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		34716DCE2A846B73006672C9 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		34716DD22A86296F006672C9 /* PlayLocalVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideo.swift; sourceTree = "<group>"; };
+		34716DD52A863BD8006672C9 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		34716DD72A863D01006672C9 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +290,9 @@
 		34716DB52A838A53006672C9 /* 3.PlayLocalVideo */ = {
 			isa = PBXGroup;
 			children = (
+				34716DD42A863BD8006672C9 /* Movie */,
 				34716DD22A86296F006672C9 /* PlayLocalVideo.swift */,
+				34716DD72A863D01006672C9 /* PlayLocalVideoCell.swift */,
 			);
 			path = 3.PlayLocalVideo;
 			sourceTree = "<group>";
@@ -353,6 +359,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		34716DD42A863BD8006672C9 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				34716DD52A863BD8006672C9 /* emoji zone.mp4 */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -416,6 +430,7 @@
 				34716DCB2A846B4B006672C9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				34716D8F2A833C09006672C9 /* Assets.xcassets in Resources */,
 				34716D8D2A833C08006672C9 /* Main.storyboard in Resources */,
+				34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */,
 				34716D9A2A833F57006672C9 /* YKCell.xib in Resources */,
 				34716DCD2A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				34716DCC2A846B4B006672C9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
@@ -433,6 +448,7 @@
 				34716D8A2A833C08006672C9 /* ViewController.swift in Sources */,
 				34716D862A833C08006672C9 /* AppDelegate.swift in Sources */,
 				34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */,
+				34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */,
 				34716D882A833C08006672C9 /* SceneDelegate.swift in Sources */,
 				34716DCF2A846B73006672C9 /* CustomFont.swift in Sources */,
 				34716D9C2A833FBB006672C9 /* YKCell.swift in Sources */,

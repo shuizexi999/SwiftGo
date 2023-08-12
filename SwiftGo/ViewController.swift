@@ -87,6 +87,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc2 = storyboard.instantiateViewController(withIdentifier: "CustomFont")
             navigationController?.pushViewController(vc2, animated: true)
+            
+        } else if indexPath.row == 2 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc3 = storyboard.instantiateViewController(withIdentifier: "PlayLocalVideo")
+            navigationController?.pushViewController(vc3, animated: true)
         }
     }
 }
