@@ -25,6 +25,13 @@
 		34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34716DD22A86296F006672C9 /* PlayLocalVideo.swift */; };
 		34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 34716DD52A863BD8006672C9 /* emoji zone.mp4 */; };
 		34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34716DD72A863D01006672C9 /* PlayLocalVideoCell.swift */; };
+		34A98E682A89B3FD00B021D6 /* SnapChatMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E672A89B3FD00B021D6 /* SnapChatMenu.swift */; };
+		34A98E6A2A89B44300B021D6 /* SCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E692A89B44300B021D6 /* SCameraView.swift */; };
+		34A98E6C2A89B45100B021D6 /* SCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E6B2A89B45100B021D6 /* SCameraView.xib */; };
+		34A98E6E2A89B46E00B021D6 /* SLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E6D2A89B46E00B021D6 /* SLeftView.xib */; };
+		34A98E702A89B72E00B021D6 /* SRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E6F2A89B72E00B021D6 /* SRightView.swift */; };
+		34A98E742A89B74E00B021D6 /* SRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E732A89B74E00B021D6 /* SRightView.xib */; };
+		34A98E762A89BB1700B021D6 /* SnapChatMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E752A89BB1700B021D6 /* SnapChatMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,13 @@
 		34716DD22A86296F006672C9 /* PlayLocalVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideo.swift; sourceTree = "<group>"; };
 		34716DD52A863BD8006672C9 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 		34716DD72A863D01006672C9 /* PlayLocalVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoCell.swift; sourceTree = "<group>"; };
+		34A98E672A89B3FD00B021D6 /* SnapChatMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatMenu.swift; sourceTree = "<group>"; };
+		34A98E692A89B44300B021D6 /* SCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCameraView.swift; sourceTree = "<group>"; };
+		34A98E6B2A89B45100B021D6 /* SCameraView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCameraView.xib; sourceTree = "<group>"; };
+		34A98E6D2A89B46E00B021D6 /* SLeftView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLeftView.xib; sourceTree = "<group>"; };
+		34A98E6F2A89B72E00B021D6 /* SRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRightView.swift; sourceTree = "<group>"; };
+		34A98E732A89B74E00B021D6 /* SRightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SRightView.xib; sourceTree = "<group>"; };
+		34A98E752A89BB1700B021D6 /* SnapChatMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapChatMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +290,13 @@
 		34716DB32A838A53006672C9 /* 4.SnapChatMenu */ = {
 			isa = PBXGroup;
 			children = (
+				34A98E672A89B3FD00B021D6 /* SnapChatMenu.swift */,
+				34A98E752A89BB1700B021D6 /* SnapChatMenu.xib */,
+				34A98E6D2A89B46E00B021D6 /* SLeftView.xib */,
+				34A98E692A89B44300B021D6 /* SCameraView.swift */,
+				34A98E6B2A89B45100B021D6 /* SCameraView.xib */,
+				34A98E6F2A89B72E00B021D6 /* SRightView.swift */,
+				34A98E732A89B74E00B021D6 /* SRightView.xib */,
 			);
 			path = 4.SnapChatMenu;
 			sourceTree = "<group>";
@@ -430,8 +451,12 @@
 				34716DCB2A846B4B006672C9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				34716D8F2A833C09006672C9 /* Assets.xcassets in Resources */,
 				34716D8D2A833C08006672C9 /* Main.storyboard in Resources */,
+				34A98E742A89B74E00B021D6 /* SRightView.xib in Resources */,
 				34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */,
+				34A98E6C2A89B45100B021D6 /* SCameraView.xib in Resources */,
+				34A98E6E2A89B46E00B021D6 /* SLeftView.xib in Resources */,
 				34716D9A2A833F57006672C9 /* YKCell.xib in Resources */,
+				34A98E762A89BB1700B021D6 /* SnapChatMenu.xib in Resources */,
 				34716DCD2A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				34716DCC2A846B4B006672C9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				34716DC22A838B2D006672C9 /* SimpleStopWatch.xib in Resources */,
@@ -447,12 +472,15 @@
 			files = (
 				34716D8A2A833C08006672C9 /* ViewController.swift in Sources */,
 				34716D862A833C08006672C9 /* AppDelegate.swift in Sources */,
+				34A98E702A89B72E00B021D6 /* SRightView.swift in Sources */,
 				34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */,
 				34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */,
+				34A98E682A89B3FD00B021D6 /* SnapChatMenu.swift in Sources */,
 				34716D882A833C08006672C9 /* SceneDelegate.swift in Sources */,
 				34716DCF2A846B73006672C9 /* CustomFont.swift in Sources */,
 				34716D9C2A833FBB006672C9 /* YKCell.swift in Sources */,
 				34716DBE2A838B10006672C9 /* SimpleStopWatch.swift in Sources */,
+				34A98E6A2A89B44300B021D6 /* SCameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,8 +625,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hexin Yu (975X2S4YM3)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X6SEA5MD8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -611,8 +641,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yyks.SwiftGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.iLNEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DEV_AppID_iLNEnterprise;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,8 +655,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Neusoft Group (Dalian) Ltd.";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X6SEA5MD8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -638,8 +671,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yyks.SwiftGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.iLNEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DIS_AppID_iLNEnterprise;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

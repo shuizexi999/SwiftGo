@@ -92,6 +92,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc3 = storyboard.instantiateViewController(withIdentifier: "PlayLocalVideo")
             navigationController?.pushViewController(vc3, animated: true)
+            
+        } else if indexPath.row == 3 {
+            let vc4 = SnapChatMenu()
+            navigationController?.pushViewController(vc4, animated: true)
+            
         }
     }
 }
