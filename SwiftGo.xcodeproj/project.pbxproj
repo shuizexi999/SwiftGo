@@ -32,6 +32,11 @@
 		34A98E702A89B72E00B021D6 /* SRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E6F2A89B72E00B021D6 /* SRightView.swift */; };
 		34A98E742A89B74E00B021D6 /* SRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E732A89B74E00B021D6 /* SRightView.xib */; };
 		34A98E762A89BB1700B021D6 /* SnapChatMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A98E752A89BB1700B021D6 /* SnapChatMenu.xib */; };
+		34A98E782A89D8F000B021D6 /* CarouselEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E772A89D8F000B021D6 /* CarouselEffect.swift */; };
+		34A98E7A2A89DBEE00B021D6 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E792A89DBEE00B021D6 /* CarouselCollectionViewCell.swift */; };
+		34A98E7C2A89DBFB00B021D6 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E7B2A89DBFB00B021D6 /* Carousel.swift */; };
+		34FBD6A62A8E539600E862DB /* CarouselEffect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBD6A52A8E539600E862DB /* CarouselEffect.xib */; };
+		34FBD6A82A8F616B00E862DB /* CarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBD6A72A8F616B00E862DB /* CarouselCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +67,11 @@
 		34A98E6F2A89B72E00B021D6 /* SRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRightView.swift; sourceTree = "<group>"; };
 		34A98E732A89B74E00B021D6 /* SRightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SRightView.xib; sourceTree = "<group>"; };
 		34A98E752A89BB1700B021D6 /* SnapChatMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapChatMenu.xib; sourceTree = "<group>"; };
+		34A98E772A89D8F000B021D6 /* CarouselEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselEffect.swift; sourceTree = "<group>"; };
+		34A98E792A89DBEE00B021D6 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		34A98E7B2A89DBFB00B021D6 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		34FBD6A52A8E539600E862DB /* CarouselEffect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselEffect.xib; sourceTree = "<group>"; };
+		34FBD6A72A8F616B00E862DB /* CarouselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +354,11 @@
 		34716DB92A838A53006672C9 /* 5.CarouselEffect */ = {
 			isa = PBXGroup;
 			children = (
+				34A98E772A89D8F000B021D6 /* CarouselEffect.swift */,
+				34FBD6A52A8E539600E862DB /* CarouselEffect.xib */,
+				34A98E792A89DBEE00B021D6 /* CarouselCollectionViewCell.swift */,
+				34FBD6A72A8F616B00E862DB /* CarouselCollectionViewCell.xib */,
+				34A98E7B2A89DBFB00B021D6 /* Carousel.swift */,
 			);
 			path = 5.CarouselEffect;
 			sourceTree = "<group>";
@@ -450,6 +465,7 @@
 				34716DCA2A846B4B006672C9 /* Gaspar Regular.otf in Resources */,
 				34716DCB2A846B4B006672C9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				34716D8F2A833C09006672C9 /* Assets.xcassets in Resources */,
+				34FBD6A82A8F616B00E862DB /* CarouselCollectionViewCell.xib in Resources */,
 				34716D8D2A833C08006672C9 /* Main.storyboard in Resources */,
 				34A98E742A89B74E00B021D6 /* SRightView.xib in Resources */,
 				34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */,
@@ -459,6 +475,7 @@
 				34A98E762A89BB1700B021D6 /* SnapChatMenu.xib in Resources */,
 				34716DCD2A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				34716DCC2A846B4B006672C9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				34FBD6A62A8E539600E862DB /* CarouselEffect.xib in Resources */,
 				34716DC22A838B2D006672C9 /* SimpleStopWatch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +489,7 @@
 			files = (
 				34716D8A2A833C08006672C9 /* ViewController.swift in Sources */,
 				34716D862A833C08006672C9 /* AppDelegate.swift in Sources */,
+				34A98E782A89D8F000B021D6 /* CarouselEffect.swift in Sources */,
 				34A98E702A89B72E00B021D6 /* SRightView.swift in Sources */,
 				34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */,
 				34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */,
@@ -481,6 +499,8 @@
 				34716D9C2A833FBB006672C9 /* YKCell.swift in Sources */,
 				34716DBE2A838B10006672C9 /* SimpleStopWatch.swift in Sources */,
 				34A98E6A2A89B44300B021D6 /* SCameraView.swift in Sources */,
+				34A98E7A2A89DBEE00B021D6 /* CarouselCollectionViewCell.swift in Sources */,
+				34A98E7C2A89DBFB00B021D6 /* Carousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

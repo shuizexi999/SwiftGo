@@ -97,6 +97,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let vc4 = SnapChatMenu()
             navigationController?.pushViewController(vc4, animated: true)
             
+        } else if indexPath.row == 4 {
+            let vc5 = CarouselEffect()
+            navigationController?.pushViewController(vc5, animated: true)
+            
         }
     }
 }
