@@ -101,6 +101,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let vc5 = CarouselEffect()
             navigationController?.pushViewController(vc5, animated: true)
             
+        } else if indexPath.row == 5 {
+            let vc6 = FindMyLocation()
+            navigationController?.pushViewController(vc6, animated: true)
+            
         }
     }
 }

@@ -35,6 +35,9 @@
 		34A98E782A89D8F000B021D6 /* CarouselEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E772A89D8F000B021D6 /* CarouselEffect.swift */; };
 		34A98E7A2A89DBEE00B021D6 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E792A89DBEE00B021D6 /* CarouselCollectionViewCell.swift */; };
 		34A98E7C2A89DBFB00B021D6 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A98E7B2A89DBFB00B021D6 /* Carousel.swift */; };
+		34C93D0B2A98A8E600AE363D /* FindMyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C93D0A2A98A8E600AE363D /* FindMyLocation.swift */; };
+		34C93D0D2A98A93B00AE363D /* FindMyLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C93D0C2A98A93B00AE363D /* FindMyLocation.xib */; };
+		34C93D0F2A98B1FC00AE363D /* CLLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C93D0E2A98B1FC00AE363D /* CLLocationDelegate.swift */; };
 		34FBD6A62A8E539600E862DB /* CarouselEffect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBD6A52A8E539600E862DB /* CarouselEffect.xib */; };
 		34FBD6A82A8F616B00E862DB /* CarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FBD6A72A8F616B00E862DB /* CarouselCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -70,6 +73,9 @@
 		34A98E772A89D8F000B021D6 /* CarouselEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselEffect.swift; sourceTree = "<group>"; };
 		34A98E792A89DBEE00B021D6 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		34A98E7B2A89DBFB00B021D6 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		34C93D0A2A98A8E600AE363D /* FindMyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyLocation.swift; sourceTree = "<group>"; };
+		34C93D0C2A98A93B00AE363D /* FindMyLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindMyLocation.xib; sourceTree = "<group>"; };
+		34C93D0E2A98B1FC00AE363D /* CLLocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationDelegate.swift; sourceTree = "<group>"; };
 		34FBD6A52A8E539600E862DB /* CarouselEffect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselEffect.xib; sourceTree = "<group>"; };
 		34FBD6A72A8F616B00E862DB /* CarouselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +220,9 @@
 		34716DA72A838A53006672C9 /* 6.FindMyLocation */ = {
 			isa = PBXGroup;
 			children = (
+				34C93D0A2A98A8E600AE363D /* FindMyLocation.swift */,
+				34C93D0C2A98A93B00AE363D /* FindMyLocation.xib */,
+				34C93D0E2A98B1FC00AE363D /* CLLocationDelegate.swift */,
 			);
 			path = 6.FindMyLocation;
 			sourceTree = "<group>";
@@ -471,6 +480,7 @@
 				34716DD62A863BD8006672C9 /* emoji zone.mp4 in Resources */,
 				34A98E6C2A89B45100B021D6 /* SCameraView.xib in Resources */,
 				34A98E6E2A89B46E00B021D6 /* SLeftView.xib in Resources */,
+				34C93D0D2A98A93B00AE363D /* FindMyLocation.xib in Resources */,
 				34716D9A2A833F57006672C9 /* YKCell.xib in Resources */,
 				34A98E762A89BB1700B021D6 /* SnapChatMenu.xib in Resources */,
 				34716DCD2A846B4B006672C9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
@@ -493,7 +503,9 @@
 				34A98E702A89B72E00B021D6 /* SRightView.swift in Sources */,
 				34716DD32A86296F006672C9 /* PlayLocalVideo.swift in Sources */,
 				34716DD82A863D01006672C9 /* PlayLocalVideoCell.swift in Sources */,
+				34C93D0F2A98B1FC00AE363D /* CLLocationDelegate.swift in Sources */,
 				34A98E682A89B3FD00B021D6 /* SnapChatMenu.swift in Sources */,
+				34C93D0B2A98A8E600AE363D /* FindMyLocation.swift in Sources */,
 				34716D882A833C08006672C9 /* SceneDelegate.swift in Sources */,
 				34716DCF2A846B73006672C9 /* CustomFont.swift in Sources */,
 				34716D9C2A833FBB006672C9 /* YKCell.swift in Sources */,
